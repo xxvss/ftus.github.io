@@ -1,0 +1,120 @@
+<！-NC工具箱-NC博客http://www.ncbk.net->
+<！DOCTYPE html >
+< html  lang =“ zh ” >
+< 头>
+    < meta  charset =“ UTF-8 ” >
+    < meta  http-equiv =“ X-UA-Compatible ” content =“ IE = edge，chrome = 1 ” > 
+    < meta  name =“ viewport ” content =“ width = device-width，initial-scale = 1.0 ” >
+    < title > NC图床-免费CDN图床图片上传</ title >
+	< meta  name =“ description ” content =“ NC图床永久免费图床，即时预览，不限流量，不限外链数，永久保存，CDN图床，高速稳定，支持JPG，GIF，PNG等文件格式。 “ >
+    < 元 名称 = “ 关键字 ” 内容 =“ NC图床，图床API，免费图床，阿里图床，淘宝免费图床，图片库，网络相册 ” >
+    < 链接 href =“ favicon.ico ” rel =“ 快捷方式图标 ” 类型 =“ image / x-icon ” />
+    < link  rel =“ stylesheet ” href =“ https://cdn.jsdelivr.net/gh/xxvss/ftus.github.io/CSS/style.css ” >
+    < link  rel =“ stylesheet ” href =“ https://cdn.bootcss.com/Vidage/0.1.2/styles/Vidage.css ” />
+    < 链接 rel =“ 样式表 ” href =“ https://cdn.bootcss.com/ionicons/4.5.6/collection/icon/icon.css ” >
+    < link  href =“ dist / mfb.css ” rel =“ 样式表 ” >
+    < link  rel =“ stylesheet ” type =“ 文本/ css ” href =“ https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.css ” >
+    < link  rel =“ stylesheet ” type =“ text / css ” href =“ https://cdn.jsdelivr.net/gh/xxvss/ftus.github.io/CSS/fileinput.css ” >
+    < 脚本 src =“ https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js ” > </ 脚本>
+    < 脚本 src =“ https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js ” 输入 =“ text / javascript ” > </ 脚本>
+    < 脚本 类型 =“ text / javascript ” src =“ https://cdn.jsdelivr.net/gh/xxvss/ftus.github.io/CSS/fileinput.min.js ” > </ 脚本>
+    < 脚本 类型 =“ text / javascript ” src =“ https://cdn.jsdelivr.net/gh/xxvss/ftus.github.io/CSS/fileinput_locale_zh.js ” > </ 脚本>
+    < 脚本 src =“ https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js ” > </ 脚本>
+<！-[如果是IE]>
+	<script src =“ https://cdn.bootcss.com/html5shiv/3.7.0/html5shiv-printshiv.min.js”> </ script>
+<！[endif]->
+
+
+</ head >
+< 身体>
+    <！-Vidage样本结构->
+    < div  class =“ Vidage ” >
+      < div  class =“ Vidage__image ” > </ div >
+     </ div >
+     < div  class =“ cs ” >
+       < BR >
+       < img  src =“ https://ae01.alicdn.com/kf/H6121a6069fa64ec98eebbda9043297b4k.jpg ” alt =“ NC图床 ” id =“ 徽标 ” >
+       < h1 > NC图床，免费好用的CDN图床</ h1 >
+       < h3 >不限流量，无限外链，永久免费</ h3 >
+   </ div >
+   < form  enctype =“ multipart / form-data ” style =“ margin：0 auto; width：80％ ” >
+    < div  class =“ form-group ” >
+        < 输入 id =“ smfile ” 类型 =“ 文件 ” 多个 类 =“ 文件 ” data-overwrite-initial =“ false ” data-min-file-count =“ 1 ” data-max-file-count =“ 100 ” 名称 =“ 图片 ” 接受 =“ 图片/ * ” >
+    </ div >
+</ 表单>
+< div  id =“ showurl ” style =“ 显示：无；边距：0自动；宽度：80％ ” >
+    < ul  id =“ navTab ” 类 =“ nav nav-tabs ” >
+        < 锂 类 = “ 活性 ” > < 一个 HREF =“ #urlcodes ” 数据肘节 =“ 选项卡 ” > URL </ 一> </ 李>
+        < 锂> < 一个 HREF = “ #htmlcodes ” 数据肘节 =“ 选项卡 ” > HTML </ 一> </ 李>
+        < 锂> < 一个 HREF = “ #bbcodes ” 数据肘节 =“ 选项卡 ” > BB代码</ 一> </ 李>
+        < 锂> < 一个 HREF = “ #markdowncodes ” 数据肘节 =“ 选项卡 ” >降价</ 一> </ 李>
+        < 锂> < 一个 HREF = “ ＃markdowncodes2 ” 数据肘节 =“ 选项卡 ” >降价带链接的</ 一> </ 李>
+    </ ul >
+    < div  id =“ navTabContent ” 类 =“ tab-content ” >
+        < div  class =“ Tab窗格淡入活动的 ” id =“ urlcodes ” >
+            < pre  style =“ margin-top：5px; ” >> < 代码 id =“ urlcode ” data-clipboard-text =“ 1 ” onclick =“ copy（this） ” > </ 代码> </ pre >
+        </ div >
+        < div  class =“ tab-pane fade ” id =“ htmlcodes ” >
+            < pre  style =“ margin-top：5px; ” > < 代码 ID =“ htmlcode ” data-clipboard-text =“ 2 ” onclick =“ copy（this） ” > </ 代码> </ pre >
+        </ div >
+        < div  class =“ tab-pane fade ” id =“ bbcodes ” >
+            < pre  style =“ margin-top：5px; ” > < 代码 id =“ bbcode ” onclick =“ copy（this） ” > </ 代码> </ pre >
+        </ div >
+        < div  class =“ tab-pane fade ” id =“ markdowncodes ” >
+            < pre  style =“ margin-top：5px; ” > < 代码 id =“ markdown ” onclick =“ 复制（this） ” > </ 代码> </ pre >
+        </ div >
+        < div  class =“ tab-pane fade ” id =“ markdowncodes2 ” >
+            < pre  style =“ margin-top：5px; ” >> < 代码 id =“ markdownlinks ” onclick =“ copy（this） ” > </ 代码> </ pre >
+        </ div >
+    </ div >
+</ div >
+
+<！-Vidage初始化->
+< 脚本 src =“ https://cdn.bootcss.com/Vidage/0.1.2/scripts/Vidage.min.js ” > </ 脚本>
+< 脚本>
+  新 Vidage （'#VidageVideo' ）;
+</ 脚本>
+< 脚本 类型 =“ text / javascript ” >
+    函数 复制（obj ）{
+        新 剪贴板（'.tab-content' ， {
+        文字：函数（触发器） {
+           返回 触发器。的getAttribute （$ （OBJ ）。HTML （））;
+       }
+   } ）;
+   }
+</ 脚本>
+< 脚本>
+    $ （“ #smfile” ）。fileinput （{
+        uploadUrl：'https : //www.freeapi.me/upload.html?type = ali ' ，
+        allowedFileExtensions：[ 'jpeg' ， 'jpg' ， 'png' ， 'gif' ， 'bmp' ] ，
+        overwriteInitial：false ，
+        maxFileSize：5120 ，
+        maxFilesNum：100 ，
+        maxFileCount：100 ，
+    } ）;
+    $ （'#smfile' ）。on （'fileuploaded' ， function （event ， data ， PreviewId ， index ） {
+        var  form  =  data 。表格， 文件 =  数据。文件， 额外 =  数据。额外， 响应 =  数据。回应， 读者 =  数据。读者;
+        如果（响应。代码 ==  '200' ） {
+            if  （ $ （“ showurl” ）。css （“ display” ） ） {
+                $ （'#urlcode' ）。追加（响应。数据。URL  +  “\ n”个）;
+                $ （'#htmlcode' ）。追加（“＆LT; IMG SRC = \”” +  响应。数据。URL  + “\” ALT = \ “” +  文件[ 指数] 。名 + “\”标题= \ “” +  文件[ 指数] 。名 + “ \” /＆gt;“  +  ” \ n“ ）；
+                $ （'#bbcode' ）。追加（“[IMG]” +  响应。数据。网址 + “[/ IMG]”  +  “\ n”个）;
+                $ （'#markdown' ）。追加（“！[” +  文件[ 指数] 。名 + “]（”  +  响应。数据。URL  +  “）”  +  “\ n”个）;
+                $ （'#markdownlinks' ）。追加（“[！[” +  文件[ 指数] 。名称 + “（”  +  响应。数据。网址 +  “）”  + “（”  +  响应。数据。网址 +  “）”  +  “\ n” ）;
+
+            }  否则 如果 （响应。数据。URL ） {
+                $ （“ #showurl” ）。显示（）;
+                $ （'#urlcode' ）。追加（响应。数据。URL  +  “\ n”个）;
+                $ （'#htmlcode' ）。追加（“＆LT; IMG SRC = \”” +  响应。数据。URL  + “\” ALT = \ “” +  文件[ 指数] 。名 + “\”标题= \ “” +  文件[ 指数] 。名 + “ \” /＆gt;“  +  ” \ n“ ）；
+                $ （'#bbcode' ）。追加（“[IMG]” +  响应。数据。网址 + “[/ IMG]”  +  “\ n”个）;
+                $ （'#markdown' ）。追加（“！[” +  文件[ 指数] 。名 + “]（”  +  响应。数据。URL  +  “）”  +  “\ n”个）;
+                $ （'#markdownlinks' ）。追加（“[！[” +  文件[ 指数] 。名称 + “（”  +  响应。数据。网址 +  “）”  + “（”  +  响应。数据。网址 +  “）”  +  “\ n” ）;
+            }
+        }
+    } ）;
+</ 脚本>
+  < p  style =“ text-align：center; ” >
+< 一个 目标 = “ _blank ” 类 =“ TITLE1 ” > ©2019通过API < 一个 HREF =“ http://image.ncbk.net/ ” 目标 =“ _blank ” > NC图床</ 一>＆安培; < 一个 HREF = “ https://image.kieng.cn/ ” 目标 =“ _blank ” > KIENG图床</ 一>公司</ 一>
+</ p >
+</ body >
+</ html >
